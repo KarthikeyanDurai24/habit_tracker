@@ -1,266 +1,222 @@
 # User Stories Documentation
 
-This document outlines user stories for different screens and features of the application. These user stories help define functional requirements from the user’s perspective.
+This document describes the user stories for the application, outlining core features and expected user interactions. The stories are written from the user’s perspective to clearly define functional requirements and user goals.
 
 ---
 
-## Exercise 3: User Stories for Login and Registration Screen
+## Home Screen User Stories
 
-### Application Registration
+### View Progress Overview
 **User Story:**  
-As a user, I want to register an account by entering my username, email, and password so that I can create a new account and access the application.
-
-**Acceptance Criteria:**
-- The user must enter a username, email, and password.
-- Clicking the **Sign Up** button registers the user.
-- User details are stored locally for future sessions.
-
----
-
-### Application Login
-**User Story:**  
-As a user, I want to log in using my email and password so that I can access my account securely.
-
-**Acceptance Criteria:**
-- The user must enter a valid email and password.
-- Clicking the **Login** button authenticates the user.
-- Successful login navigates the user to the home screen.
-
----
-
-### Error Feedback on Signup and Login
-**User Story:**  
-As a user, I want to receive clear error messages when I enter invalid or missing details so that I know how to fix the issue.
-
-**Acceptance Criteria:**
-- An error message appears if fields are empty.
-- An error message appears for incorrect login credentials.
-
----
-
-### Store User Data
-**User Story:**  
-As a user, I want my login and registration data to be stored locally so that my information persists across app sessions.
-
-**Acceptance Criteria:**
-- User data is saved using local storage.
-- Stored data is retrieved when the app restarts.
-
----
-
-## Exercise 4: User Stories for Home Screen
-
-### View Data Overview
-**User Story:**  
-As a user, I want to see an overview of my activity on the home screen so that I can track my progress at a glance.
+As a user, I want to view an overview of my data on the home screen so that I can monitor my progress at a glance.
 
 **Example:**  
-A fitness app displays steps walked, calories burned, and water intake.
+A fitness app displays steps walked, calories burned, and water intake on the home screen.
 
-**Why:**  
-Helps users stay motivated by instantly viewing progress.
+**Purpose:**  
+Helps users stay motivated by immediately showing their progress.
 
 ---
 
 ### Introductory Guide for New Users
 **User Story:**  
-As a new user, I want to see a brief introduction or guide on the home screen so that I can understand how to use the app.
+As a new user, I want to see a quick introductory guide on the home screen so that I can learn how to use the app.
 
 **Example:**  
-A recipe app shows a carousel explaining key features.
+A recipe app displays a carousel of tips explaining key features.
 
-**Why:**  
-Ensures users quickly learn essential functionality.
+**Purpose:**  
+Ensures new users understand the main functionality quickly.
 
 ---
 
-### Quick Access to Features
+### Quick Access to Key Features
 **User Story:**  
-As a user, I want shortcuts to frequently used features on the home screen so that I can navigate efficiently.
+As a user, I want to access my most-used features from the home screen so that I can navigate the app efficiently.
 
 **Example:**  
-An e-commerce app provides shortcuts for orders and saved items.
+An e-commerce app shows shortcuts to commonly used actions like tracking orders or browsing categories.
 
-**Why:**  
-Reduces navigation time and improves usability.
+**Purpose:**  
+Improves user experience by reducing unnecessary navigation.
 
 ---
 
-## Exercise 5: User Stories for Detail Screen
+## Detail Screen User Stories
 
 ### View Detailed Information
 **User Story:**  
 As a user, I want to view detailed information about a selected item so that I can make informed decisions.
 
 **Example:**  
-An e-commerce app shows product images, reviews, and pricing.
+An e-commerce app displays product images, specifications, reviews, and pricing.
 
-**Why:**  
-Helps users evaluate options before taking action.
+**Purpose:**  
+Allows users to evaluate options before taking action.
 
 ---
 
-### Perform Actions on Items
+### Save and Share Content
 **User Story:**  
-As a user, I want to save or share items from the detail screen so that I can access or share content easily.
+As a user, I want to save or share content from the detail screen so that I can revisit or share useful information.
 
 **Example:**  
-A recipe app allows saving and sharing recipes.
+A recipe app allows users to save recipes or share them on social media.
 
-**Why:**  
+**Purpose:**  
 Encourages interaction and content sharing.
 
 ---
 
-### View Related Items
+### Discover Related Content
 **User Story:**  
-As a user, I want to see related items on the detail screen so that I can explore similar options.
+As a user, I want to view related items on the detail screen so that I can explore additional options.
 
 **Example:**  
-A travel app shows nearby hotels and attractions.
+A travel app displays nearby attractions and similar accommodations.
 
-**Why:**  
-Enhances discovery and engagement.
+**Purpose:**  
+Enhances engagement through relevant suggestions.
 
 ---
 
-## Exercise 6: User Stories for Persistent Data
+## Data Persistence User Stories
 
-### Persist Login State
+### Persistent Login State
 **User Story:**  
-As a user, I want my login state to persist across sessions so that I do not need to log in repeatedly.
+As a user, I want my login state to persist across app sessions so that I do not need to sign in every time.
 
 **Example:**  
-A banking app stays logged in unless the user logs out.
+A banking app remains logged in until the user logs out manually.
 
-**Why:**  
-Improves convenience and user experience.
+**Purpose:**  
+Provides convenience and a seamless user experience.
 
 ---
 
 ### Save User Preferences
 **User Story:**  
-As a user, I want my preferences such as dark mode to be saved so that the app remembers my settings.
+As a user, I want my preferences, such as dark mode, to be saved so that the app remembers my settings.
 
 **Example:**  
-A news app remembers font size and language.
+A news app remembers language and font size preferences.
 
-**Why:**  
-Improves accessibility and satisfaction.
+**Purpose:**  
+Improves accessibility and personalization.
 
 ---
 
-### Persist User Activity Logs
+### Persist Activity Data
 **User Story:**  
-As an admin, I want user activity data to persist so that I can analyze trends over time.
+As an administrator, I want user activity data to persist so that trends and performance can be analyzed over time.
 
 **Example:**  
-An educational app stores quiz scores for progress tracking.
+An educational app stores quiz results for progress analysis.
 
-**Why:**  
-Supports long-term analysis and reporting.
+**Purpose:**  
+Supports long-term insights and reporting.
 
 ---
 
-## Exercise 7: User Stories for External API Integration
+## External API Integration User Stories
 
-### Real-Time Weather Updates
+### Real-Time Weather Information
 **User Story:**  
-As a user, I want to see real-time weather information so that I can plan my activities accordingly.
+As a user, I want to view real-time weather updates so that I can plan my daily activities effectively.
 
 **Example:**  
-A fitness app displays weather conditions.
+A fitness app displays weather conditions to help users decide between indoor and outdoor activities.
 
-**Why:**  
-Adds real-time value to the app.
+**Purpose:**  
+Adds real-time value to the application.
 
 ---
 
-### Currency Conversion
+### Live Currency Conversion
 **User Story:**  
-As a user, I want to view live currency conversion rates so that I can make informed purchase decisions.
+As a user, I want to see live currency conversion rates when making purchases so that I can make informed financial decisions.
 
 **Example:**  
-An e-commerce app shows prices in local currency.
+An e-commerce app shows prices in the user’s local currency.
 
-**Why:**  
-Improves clarity and personalization.
+**Purpose:**  
+Creates a personalized and transparent experience.
 
 ---
 
-### Nearby Locations Using Maps
+### Location-Based Services
 **User Story:**  
-As a user, I want to see nearby restaurants on a map so that I can choose a location conveniently.
+As a user, I want to view nearby locations on a map so that I can make convenient choices.
 
 **Example:**  
-A food delivery app uses Google Maps.
+A food delivery app displays nearby restaurants using a map service.
 
-**Why:**  
-Enhances navigation and usability.
+**Purpose:**  
+Enhances navigation and decision-making.
 
 ---
 
-## Exercise 8: User Stories for Settings Menu
+## Settings Menu User Stories
 
-### Access Settings Menu
+### Access Settings Anywhere
 **User Story:**  
-As a user, I want to access the settings menu from any screen so that I can change preferences easily.
+As a user, I want to access the settings menu from any screen so that I can adjust preferences at any time.
 
 **Example:**  
-A settings icon available on all screens.
+A settings icon available across the application.
 
-**Why:**  
-Improves accessibility.
+**Purpose:**  
+Improves accessibility and usability.
 
 ---
 
-### Categorized Settings
+### Organized Settings Categories
 **User Story:**  
-As a user, I want settings organized into categories so that I can find options quickly.
+As a user, I want settings to be organized into categories so that I can find options quickly.
 
 **Example:**  
-Settings grouped into Profile, Notifications, and Security.
+Categories such as Profile, Notifications, and Privacy.
 
-**Why:**  
-Reduces confusion and effort.
+**Purpose:**  
+Reduces effort and improves navigation.
 
 ---
 
 ### Admin-Controlled Settings
 **User Story:**  
-As an admin, I want to control certain settings so that security and compliance are maintained.
+As an administrator, I want to control access to certain settings so that security and compliance are maintained.
 
 **Example:**  
-Restricting access to sensitive options.
+Restricting access to sensitive configuration options.
 
-**Why:**  
-Ensures policy compliance.
+**Purpose:**  
+Ensures system integrity and policy adherence.
 
 ---
 
-## Exercise 9: User Stories for Settings Screen
+## Settings Screen User Stories
 
 ### Enable Dark Mode
 **User Story:**  
-As a user, I want to enable dark mode so that I can reduce eye strain.
+As a user, I want to enable dark mode so that I can reduce eye strain, especially in low-light environments.
 
 **Example:**  
-A toggle in appearance settings.
+A toggle under appearance settings.
 
-**Why:**  
+**Purpose:**  
 Improves comfort and accessibility.
 
 ---
 
-### Notification Preferences
+### Customize Notifications
 **User Story:**  
-As a user, I want to customize notification preferences so that I receive only relevant alerts.
+As a user, I want to customize notification preferences so that I only receive alerts relevant to me.
 
 **Example:**  
-Choosing specific news categories.
+Selecting specific notification categories.
 
-**Why:**  
-Prevents notification overload.
+**Purpose:**  
+Prevents unnecessary interruptions.
 
 ---
 
@@ -269,59 +225,59 @@ Prevents notification overload.
 As a user, I want to update my email and password so that my account remains secure.
 
 **Example:**  
-Account settings section.
+An account settings section for credential updates.
 
-**Why:**  
-Ensures data security.
-
----
-
-## Exercise 10: User Stories for Notifications
-
-### Daily Reminders
-**User Story:**  
-As a user, I want daily reminder notifications so that I don’t forget my tasks.
-
-**Example:**  
-A reminder sent at a fixed time.
-
-**Why:**  
-Encourages consistent usage.
+**Purpose:**  
+Enhances security and user confidence.
 
 ---
 
-### Feature Update Notifications
+## Notification User Stories
+
+### Daily Task Reminders
 **User Story:**  
-As a user, I want to be notified about new features so that I can explore them.
+As a user, I want to receive daily reminder notifications so that I don’t forget to complete my tasks.
 
 **Example:**  
-Notification about new content.
+A reminder sent at a scheduled time each day.
 
-**Why:**  
-Increases engagement.
+**Purpose:**  
+Encourages consistent engagement.
 
 ---
 
-### Disable Promotional Notifications
+### Feature Update Alerts
 **User Story:**  
-As a user, I want to disable promotional notifications so that I only receive important updates.
+As a user, I want to receive notifications about new features so that I can explore and benefit from them.
 
 **Example:**  
-Toggle for promotional alerts.
+Alerts about newly added functionality.
 
-**Why:**  
-Builds user trust.
+**Purpose:**  
+Increases user engagement.
 
 ---
 
-### Admin Targeted Notifications
+### Manage Promotional Notifications
 **User Story:**  
-As an admin, I want to send notifications to specific user groups so that communication is relevant.
+As a user, I want to disable promotional notifications so that I only receive essential updates.
 
 **Example:**  
-Sending course updates to enrolled users.
+A toggle to turn off promotional alerts.
 
-**Why:**  
-Improves targeted engagement.
+**Purpose:**  
+Builds trust and reduces frustration.
+
+---
+
+### Targeted Notifications
+**User Story:**  
+As an administrator, I want to send notifications to specific user groups so that messages are relevant and effective.
+
+**Example:**  
+Sending updates to users based on activity or preferences.
+
+**Purpose:**  
+Improves targeted communication and engagement.
 
 ---
